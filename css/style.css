@@ -6137,6 +6137,10 @@ ul.navbar-right {
 	margin: 5px;
 
 }
+.fa-phone{
+	font-size: 20px;
+	margin: 5px 6px;
+}
 button.btn.whatsapp{
 
 		padding: 10px 20px;
@@ -6148,4 +6152,17 @@ button.btn.whatsapp{
 	button.btn.whatsapp:hover{
 
 		background: #25D366;
+	}
+	button.btn.phone{
+
+		padding: 10px 20px;
+		background: #fff;
+		color: #000000;
+		border-radius: 10px;
+		margin-top: -7px;
+	
+	}
+	button.btn.phone:hover{
+
+		background: #CCC;
 	}
