@@ -6129,3 +6129,24 @@ main {
 ul.navbar-right {
     margin: 15px 0 0 0;
 }
+.iconesCentro{
+	margin: 0 0 5% 39%;
+}
+.iconesCentro2{
+	margin: 0 0 5% 40%;
+}
+.centralizaDireitos{
+	margin: 0 0 0 32%;
+	
+}
+@media (max-width:600px){
+	.centralizaDireitos{
+		margin: 0 0 0 10%;
+	}
+	.iconesCentro{
+		margin: 0 0 0 20%;
+	}
+	.iconesCentro2{
+		margin: 0 0 0 25%;
+	}
+}
