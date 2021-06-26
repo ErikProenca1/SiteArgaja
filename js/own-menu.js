@@ -205,7 +205,7 @@ function checkmail(input){
 		  email.className = 'error';
 		  return false;}
 		    else if(checkmail(email.value)==false){
-		        alert('Please provide a valid email address.');
+		        alert('Por favor colocar um email correto.');
 		        return false;}
 		    else if(company.value == ""){
 		        company.className = 'error';
