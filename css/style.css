@@ -6166,3 +6166,13 @@ button.btn.whatsapp{
 
 		background: #CCC;
 	}
+	.contact-info {
+		border-radius: 10px;
+		background-color: #E52B1E;
+		color: #fff;
+	}
+	.contact-info:link {
+		border-radius: 10px;
+		background-color: #E52B1E;
+		color: #fff;
+	}
