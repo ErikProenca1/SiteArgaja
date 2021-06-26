@@ -6129,3 +6129,23 @@ main {
 ul.navbar-right {
     margin: 15px 0 0 0;
 }
+
+/* ADICIONADOS HUMBERTO */
+
+.fa-whatsapp{
+	font-size: 20px;
+	margin: 5px;
+
+}
+button.btn.whatsapp{
+
+		padding: 10px 20px;
+		background: #075E54;
+		border-radius: 10px;
+		margin-top: -7px;
+	
+	}
+	button.btn.whatsapp:hover{
+
+		background: #25D366;
+	}
