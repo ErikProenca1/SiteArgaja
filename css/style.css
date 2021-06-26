@@ -6129,6 +6129,28 @@ main {
 ul.navbar-right {
     margin: 15px 0 0 0;
 }
+/* adicionados Gustavo */
+.iconesCentro{
+	margin: 0 0 5% 39%;
+}
+.iconesCentro2{
+	margin: 0 0 5% 40%;
+}
+.centralizaDireitos{
+	margin: 0 0 0 32%;
+	
+}
+@media (max-width:600px){
+	.centralizaDireitos{
+		margin: 0 0 0 10%;
+	}
+	.iconesCentro{
+		margin: 0 0 0 20%;
+	}
+	.iconesCentro2{
+		margin: 0 0 0 25%;
+	}
+}
 
 /* ADICIONADOS HUMBERTO */
 
@@ -6166,6 +6188,7 @@ button.btn.whatsapp{
 
 		background: #CCC;
 	}
+<<<<<<< HEAD
 	.contact-info {
 		border-radius: 10px;
 		background-color: #E52B1E;
@@ -6176,3 +6199,5 @@ button.btn.whatsapp{
 		background-color: #E52B1E;
 		color: #fff;
 	}
+=======
+>>>>>>> 3d9e707a445f17325cd5463fed510f4e50c81e95
