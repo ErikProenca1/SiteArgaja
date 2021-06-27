@@ -220,7 +220,7 @@ function checkmail(input){
 		  {
 	$.ajax({
 		type: "POST",
-		url: "php/submit.php",
+		url: "js/submit.php",
 		data: $("#contact_form").serialize(),
 		success: function(msg){
 		//alert(msg);
