@@ -4115,7 +4115,6 @@ textarea.form-control-lg {
   .navbar-expand-lg .navbar-toggler {
     display: none;
   }
-}
 @media (min-width: 1200px) {
   .navbar-expand-xl {
     flex-wrap: nowrap;
