@@ -10746,6 +10746,8 @@ textarea.form-control-lg {
     padding-bottom: 0.25rem !important;
   }
 
+  
+
   .pb-xxl-2 {
     padding-bottom: 0.5rem !important;
   }
@@ -10861,4 +10863,5 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   position: fixed;
   width: 100%;
   z-index: 2;
+}
 }
