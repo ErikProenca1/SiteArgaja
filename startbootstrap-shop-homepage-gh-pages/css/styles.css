@@ -10844,3 +10844,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/*Modificações Humberto */
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
