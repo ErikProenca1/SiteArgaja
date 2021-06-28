@@ -324,6 +324,7 @@ textarea {
   line-height: inherit;
 }
 
+
 button,
 select {
   text-transform: none;
@@ -606,6 +607,7 @@ progress {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+  
 }
 
 @media (min-width: 576px) {
@@ -3424,6 +3426,7 @@ textarea.form-control-lg {
 
 .collapse:not(.show) {
   display: none;
+  
 }
 
 .collapsing {
@@ -3845,6 +3848,7 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  
 }
 
 .nav-link {
@@ -3943,7 +3947,9 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  background-color: #E52B1E;
 }
+  
 .navbar > .container,
 .navbar > .container-fluid,
 .navbar > .container-sm,
@@ -3988,6 +3994,7 @@ textarea.form-control-lg {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
+
 }
 
 .navbar-toggler {
@@ -4084,6 +4091,9 @@ textarea.form-control-lg {
   .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
+    background-color: #E52B1E;
+    
+}
   }
   .navbar-expand-lg .navbar-nav {
     flex-direction: row;
@@ -4185,6 +4195,7 @@ textarea.form-control-lg {
 
 .navbar-light .navbar-brand {
   color: rgba(0, 0, 0, 0.9);
+  
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
   color: rgba(0, 0, 0, 0.9);
