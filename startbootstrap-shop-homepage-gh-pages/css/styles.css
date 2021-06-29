@@ -7388,7 +7388,7 @@ textarea.form-control-lg {
 }
 
 .text-white {
-  color: #fff !important;
+  color: #111 !important;
 }
 
 .text-body {
@@ -7404,7 +7404,7 @@ textarea.form-control-lg {
 }
 
 .text-white-50 {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: #111 !important;
 }
 
 .text-reset {
@@ -7441,6 +7441,7 @@ textarea.form-control-lg {
 
 .bg-dark {
   background-color: #212529 !important;
+  background-image: url(/img/img-background_topo.jpg);
 }
 
 .bg-body {
@@ -10864,4 +10865,31 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   width: 100%;
   z-index: 2;
 }
+.card{
+
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  border-radius: 10px;
 }
+.btn-success{
+
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+.nav-link {
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+
+}
+.bg-dark-footer{
+  background-color: #212529 !important;
+}
+.bg-dark-footer .text-white-50{
+  color: #fff !important;
+}
+
+.shadow-argaja{
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
