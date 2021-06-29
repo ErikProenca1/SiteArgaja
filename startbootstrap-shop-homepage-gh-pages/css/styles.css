@@ -2166,9 +2166,8 @@ progress {
 
 .form-control {
   display: block;
-  width: 100%;
+  width: 95.9%;
   padding: 0.375rem 0.75rem;
-  width: 50%;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -10893,3 +10892,8 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
 
+}
+/* classes Gustavo */
+.corrigeMargin{
+  margin: 0 0 0 17.9%;
+}
