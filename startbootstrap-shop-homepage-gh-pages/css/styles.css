@@ -11364,7 +11364,9 @@ h1 .counter > span.bottom {
     animation: fade-in 1s;
 }
 
-
+#logo {
+  width: 22%;
+}
 
  
 /* classes Gustavo */
