@@ -7387,7 +7387,7 @@ textarea.form-control-lg {
 }
 
 .text-white {
-  color: #111 !important;
+  color: #fff !important;
 }
 
 .text-body {
@@ -10929,8 +10929,6 @@ text-shadow: #ccc 0px 0px 0px;
 
 @import url(https://fonts.googleapis.com/css?family=Oswald:700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300);
-body {
-}
 .clock {
     position: relative;
     margin-bottom: 60px;
@@ -10991,7 +10989,7 @@ body {
 .clock h1 .counter > span span {
     color: #8fc400;
   background: -webkit-linear-gradient(#8fc800, #62CC00);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 
@@ -11061,7 +11059,7 @@ h1 .counter > span.bottom {
     animation: to-flip 1s;
 }
 
-@keyframes "from-flip" {
+@keyframes from-flip {
     0% {
         -webkit-transform: rotateX(180deg);
         -moz-transform: rotateX(180deg);
@@ -11091,7 +11089,7 @@ h1 .counter > span.bottom {
 
 }
 
-@-webkit-keyframes "from-flip" {
+@-webkit-keyframes from-flip {
     0% {
         -webkit-transform: rotateX(180deg);
         transform: rotateX(180deg);
@@ -11103,7 +11101,7 @@ h1 .counter > span.bottom {
 
 }
 
-@-ms-keyframes "from-flip" {
+@-ms-keyframes from-flip {
     0% {
         -ms-transform: rotateX(180deg);
         transform: rotateX(180deg);
@@ -11115,7 +11113,7 @@ h1 .counter > span.bottom {
 
 }
 
-@-o-keyframes "from-flip" {
+@-o-keyframes from-flip {
     0% {
         -o-transform: rotateX(180deg);
         transform: rotateX(180deg);
@@ -11127,7 +11125,7 @@ h1 .counter > span.bottom {
 
 }
 
-@keyframes "to-flip" {
+@keyframes to-flip {
     0% {
         -webkit-transform: rotateX(0deg);
         -moz-transform: rotateX(0deg);
@@ -11157,7 +11155,7 @@ h1 .counter > span.bottom {
 
 }
 
-@-webkit-keyframes "to-flip" {
+@-webkit-keyframes to-flip {
     0% {
         -webkit-transform: rotateX(0deg);
         transform: rotateX(0deg);
@@ -11169,7 +11167,7 @@ h1 .counter > span.bottom {
 
 }
 
-@-ms-keyframes "to-flip" {
+@-ms-keyframes to-flip {
     0% {
         -ms-transform: rotateX(0deg);
         transform: rotateX(0deg);
@@ -11181,7 +11179,7 @@ h1 .counter > span.bottom {
 
 }
 
-@-o-keyframes "to-flip" {
+@-o-keyframes to-flip {
     0% {
         -o-transform: rotateX(0deg);
         transform: rotateX(0deg);
@@ -11193,7 +11191,7 @@ h1 .counter > span.bottom {
 
 }
 
-@keyframes "fade-out" {
+@keyframes fade-out {
     0% {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
         filter: alpha(opacity=100);
@@ -11219,7 +11217,7 @@ h1 .counter > span.bottom {
 
 }
 
-@-webkit-keyframes "fade-out" {
+@-webkit-keyframes fade-out {
     0% {
         filter: alpha(opacity=100);
         opacity: 1;
@@ -11231,7 +11229,7 @@ h1 .counter > span.bottom {
 
 }
 
-@-ms-keyframes "fade-out" {
+@-ms-keyframes fade-out {
     0% {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
         filter: alpha(opacity=100);
@@ -11245,7 +11243,7 @@ h1 .counter > span.bottom {
 
 }
 
-@-o-keyframes "fade-out" {
+@-o-keyframes fade-out {
     0% {
         filter: alpha(opacity=100);
         opacity: 1;
@@ -11257,7 +11255,7 @@ h1 .counter > span.bottom {
 
 }
 
-@keyframes "fade-in" {
+@keyframes fade-in {
     0% {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
         filter: alpha(opacity=0);
@@ -11283,7 +11281,7 @@ h1 .counter > span.bottom {
 
 }
 
-@-webkit-keyframes "fade-in" {
+@-webkit-keyframes fade-in {
     0% {
         filter: alpha(opacity=0);
         opacity: 0;
@@ -11295,7 +11293,7 @@ h1 .counter > span.bottom {
 
 }
 
-@-ms-keyframes "fade-in" {
+@-ms-keyframes fade-in {
     0% {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
         filter: alpha(opacity=0);
@@ -11309,7 +11307,7 @@ h1 .counter > span.bottom {
 
 }
 
-@-o-keyframes "fade-in" {
+@-o-keyframes fade-in {
     0% {
         filter: alpha(opacity=0);
         opacity: 0;
@@ -11375,4 +11373,5 @@ h1 .counter > span.bottom {
 }
 .arrumaCor{
   color:unset;
+}
 }
