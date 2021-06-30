@@ -6960,7 +6960,7 @@ textarea.form-control-lg {
 }
 
 .mt-5 {
-  margin-top: 3rem !important;
+  margin-top: 6rem !important;
 }
 
 .mt-auto {
@@ -10894,7 +10894,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 
 .shadow-argaja{
   box-shadow: 0 0 10px rgba(0,0,0,0.6);
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.6);
 }
 
 .centralizaDireitos{
@@ -10907,6 +10907,12 @@ font-size: 70px;
 .card-menu{
   color: #000 !important;
   text-shadow: #ccc 0px 0px 0px;
+  width: 15%;
+}
+.card-promo{
+  color: #000 !important;
+  text-shadow: #ccc 0px 0px 0px;
+  width: 100%;
 }
    
 .card-menu:hover{
@@ -10921,7 +10927,6 @@ text-shadow: #ccc 0px 0px 0px;
 @import url(https://fonts.googleapis.com/css?family=Oswald:700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300);
 body {
-  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAIAAADZSiLoAAAAHElEQVQIHWP48+fP9+/f////zwCkgBwQC4ghAACODRqkCkEF0QAAAABJRU5ErkJggg==');
 }
 .clock {
     position: relative;
