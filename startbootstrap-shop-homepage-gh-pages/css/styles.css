@@ -10886,13 +10886,39 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 .bg-dark-footer .text-white-50{
   color: #fff !important;
 }
+.color-branco, .color-branco-2{
+  color: #000 !important;
+  text-shadow: #ccc 1px 1px 1px;
+
+}
 
 .shadow-argaja{
   box-shadow: 0 0 10px rgba(0,0,0,0.6);
   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
 
+.centralizaDireitos{
+  background-color: #000;
 }
+.icone-header{
+font-size: 70px;
+}
+
+.card-menu{
+  color: #000 !important;
+  text-shadow: #ccc 0px 0px 0px;
+}
+   
+.card-menu:hover{
+background-color: #E52B1E;
+color: #fff !important;
+text-shadow: #ccc 0px 0px 0px;
+}
+.text-icon{
+  color:#373b3e;
+}
+
+ 
 /* classes Gustavo */
 .corrigeMargin{
   margin: 0 0 0 17.9%;
