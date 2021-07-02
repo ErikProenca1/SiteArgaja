@@ -11376,4 +11376,7 @@ h1 .counter > span.bottom {
 .arrumaCor{
   color:unset;
 }
+.arrumaHeight{
+  height: 97%;
+}
 }
